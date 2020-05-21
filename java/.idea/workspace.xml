@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d926f0d-de5b-4326-84b0-821defcab683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/Five/SimpleEnumUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/Five/Spiciness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/NineTeen/EnumClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/NineTeen/Shrubbery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/SimpleFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/NineTeen/EnumClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/NineTeen/EnumClass.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,13 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnumClass.test2">
-    <configuration name="SimpleEnumUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enum.Five.SimpleEnumUse" />
+  <component name="RunManager" selected="JUnit.SimpleFactoryTest.test3">
+    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Factory.SimpleFactory.SimpleFactoryTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enum.Five.*" />
+          <option name="PATTERN" value="DesignPattern.Factory.SimpleFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,17 +98,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleEnumUse.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleFactoryTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enum.Five.*" />
+          <option name="PATTERN" value="DesignPattern.Factory.SimpleFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Enum.Five" />
-      <option name="MAIN_CLASS_NAME" value="Enum.Five.SimpleEnumUse" />
+      <option name="PACKAGE_NAME" value="DesignPattern.Factory.SimpleFactory" />
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Factory.SimpleFactory.SimpleFactoryTest" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFactoryTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPattern.Factory.SimpleFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DesignPattern.Factory.SimpleFactory" />
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Factory.SimpleFactory.SimpleFactoryTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,10 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleFactoryTest.test3" />
+        <item itemvalue="JUnit.SimpleFactoryTest.test2" />
+        <item itemvalue="Application.SimpleFactoryTest" />
         <item itemvalue="JUnit.EnumClass.test2" />
         <item itemvalue="JUnit.EnumClass.test" />
-        <item itemvalue="JUnit.SimpleEnumUse.test2" />
-        <item itemvalue="Application.SimpleEnumUse" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +150,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590028216248</updated>
-      <workItem from="1590028218756" duration="4738000" />
+      <workItem from="1590028218756" duration="5923000" />
+      <workItem from="1590048305091" duration="5310000" />
     </task>
     <servers />
   </component>
@@ -144,7 +163,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
