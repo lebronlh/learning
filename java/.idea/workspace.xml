@@ -2,14 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d926f0d-de5b-4326-84b0-821defcab683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/CourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/SimpleFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/IVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/IcourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/JavaNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/FactoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/IcourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/PythonFacory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/工厂方法模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/simplefactory/简单工厂模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/InnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/ExectorThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazyDoubleCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazySimpleSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazySingeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/destorysingle/ReflectInnerSingleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Enum/NineTeen/EnumClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/NineTeen/EnumClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/CourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/simplefactory/CourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/ICourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/JavaCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/PythonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/PythonCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/simplefactory/SimpleFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/CourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/CourseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/ICourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/JavaCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/PythonCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/SimpleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/SimpleFactoryTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +59,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpattern.factory.abastractfactory" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning\java\src\main\java\designpattern\factory\factorymethod" />
+      <recent name="D:\learning\java\src\main\java\designpattern\factory\simplefactory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,13 +83,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleFactoryTest.test3">
-    <configuration name="SimpleFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Factory.SimpleFactory.SimpleFactoryTest" />
+  <component name="RunManager" selected="Application.ReflectInnerSingleTest">
+    <configuration name="LazySingeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.singlepattern.Lazy.LazySingeTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Factory.SimpleFactory.*" />
+          <option name="PATTERN" value="designpattern.singlepattern.Lazy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,33 +97,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumClass.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectInnerSingleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.singlepattern.destorysingle.ReflectInnerSingleTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enum.NineTeen.*" />
+          <option name="PATTERN" value="designpattern.singlepattern.destorysingle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Enum.NineTeen" />
-      <option name="MAIN_CLASS_NAME" value="Enum.NineTeen.EnumClass" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumClass.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryMethodTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enum.NineTeen.*" />
+          <option name="PATTERN" value="designpattern.factory.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Enum.NineTeen" />
-      <option name="MAIN_CLASS_NAME" value="Enum.NineTeen.EnumClass" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="designpattern.factory.factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="designpattern.factory.factorymethod.FactoryMethodTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,12 +130,12 @@
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Factory.SimpleFactory.*" />
+          <option name="PATTERN" value="designpattern.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DesignPattern.Factory.SimpleFactory" />
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Factory.SimpleFactory.SimpleFactoryTest" />
+      <option name="PACKAGE_NAME" value="designpattern.factory.simplefactory" />
+      <option name="MAIN_CLASS_NAME" value="designpattern.factory.simplefactory.SimpleFactoryTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -118,12 +146,12 @@
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPattern.Factory.SimpleFactory.*" />
+          <option name="PATTERN" value="designpattern.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DesignPattern.Factory.SimpleFactory" />
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Factory.SimpleFactory.SimpleFactoryTest" />
+      <option name="PACKAGE_NAME" value="designpattern.factory.simplefactory" />
+      <option name="MAIN_CLASS_NAME" value="designpattern.factory.simplefactory.SimpleFactoryTest" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -132,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectInnerSingleTest" />
+        <item itemvalue="Application.LazySingeTest" />
+        <item itemvalue="JUnit.FactoryMethodTest.test1" />
         <item itemvalue="JUnit.SimpleFactoryTest.test3" />
         <item itemvalue="JUnit.SimpleFactoryTest.test2" />
-        <item itemvalue="Application.SimpleFactoryTest" />
-        <item itemvalue="JUnit.EnumClass.test2" />
-        <item itemvalue="JUnit.EnumClass.test" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +180,12 @@
       <updated>1590028216248</updated>
       <workItem from="1590028218756" duration="5923000" />
       <workItem from="1590048305091" duration="5310000" />
+      <workItem from="1590144609844" duration="608000" />
+      <workItem from="1590203022153" duration="758000" />
+      <workItem from="1590208853236" duration="5231000" />
+      <workItem from="1590310004738" duration="3962000" />
+      <workItem from="1590326925232" duration="1919000" />
+      <workItem from="1590329618518" duration="534000" />
     </task>
     <servers />
   </component>
@@ -170,5 +204,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/ExectorThread.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazySimpleSingleton.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazySingeTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazySingeTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

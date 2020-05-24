@@ -1,5 +1,7 @@
-package DesignPattern.Factory.SimpleFactory;
+package designpattern.factory.simplefactory;
 
+import designpattern.factory.ICourse;
+import designpattern.factory.JavaCourse;
 import org.junit.Test;
 
 public class SimpleFactoryTest {

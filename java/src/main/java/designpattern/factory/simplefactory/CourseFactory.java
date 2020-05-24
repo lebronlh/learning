@@ -1,6 +1,6 @@
-package DesignPattern.Factory.SimpleFactory;
+package designpattern.factory.simplefactory;
 
-import java.util.Calendar;
+import designpattern.factory.ICourse;
 
 public class CourseFactory {
 
