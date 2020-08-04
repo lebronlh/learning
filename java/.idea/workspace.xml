@@ -2,36 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d926f0d-de5b-4326-84b0-821defcab683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/INote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/IVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/IcourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/JavaNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/abastractfactory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/FactoryMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/IcourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/PythonFacory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod/工厂方法模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/simplefactory/简单工厂模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/InnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/ExectorThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazyDoubleCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazySimpleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazySingeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/destorysingle/ReflectInnerSingleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnumSingleton.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeriableSingleton.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enum/enummap/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compar/CompartorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compar/StudentCompartor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compar/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructure/redblacktree/RBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/card/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/card/ComputerReadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/card/SDAdapterTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/card/SDCardImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/card/SDcard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/card/TFCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/card/TFCardImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/card/ThinkpadComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/media/AdvancedMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/media/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/media/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/media/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/adapterpattern/media/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builder/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builder/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builder/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/builder/ShopBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v0/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v0/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v0/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v0/RedShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v0/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v0/ShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v1/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v1/BattercakeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v1/BattercakeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v1/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v1/SausageDecotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/decoratorpattern/v1/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/prototypepattern/v1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/prototypepattern/v2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxypattern/cglib/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxypattern/dynamicproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxypattern/staticproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxypattern/v01/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxypattern/v02/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/proxypattern/v03/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/container/ContainerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/destorysingle/SeriableSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/enumsingle/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/singlepattern/enumsingle/EnumSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/ConcreteStrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpattern/strategy/策略模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/annotation/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/annotation/RunTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/annotation/Sample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/eightteen/ForwardingSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/eightteen/InstrumentedSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/eightteen/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/enume/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/enume/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/fiftytwo/SetList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/genertic/Favorites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectivejava/genertic/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalprogramming/Strategize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalprogramming/lamada/FunctionVariants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalprogramming/lamada/LambdaExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalprogramming/lamada/RecursiveFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalprogramming/methodreference/MethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalprogramming/methodreference/UnboundMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/genericity/GenMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/genericity/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/genericity/RandomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsonapplication/GsonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leecode/MedianSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leecode/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lh/entry/AfterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lh/entry/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lh/entry/ExtUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lh/entry/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/Randoms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/mvcweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/java/com/rohao/Base/Restult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/java/com/rohao/Domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/java/com/rohao/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcweb/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/CourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/simplefactory/CourseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/ICourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/JavaCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/PythonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/PythonCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Factory/SimpleFactory/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designpattern/factory/simplefactory/SimpleFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/ICourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/ICourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/JavaCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/JavaCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/PythonCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/PythonCourse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/CourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/CourseFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/ICourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/JavaCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/PythonCourse.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/SimpleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/SimpleFactory/SimpleFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/INote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/INote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/IVideo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/IVideo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/IcourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/IcourseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/JavaCourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/JavaCourseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/JavaNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/JavaNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/JavaVideo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/abastractfactory/JavaVideo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/factorymethod/FactoryMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/factorymethod/FactoryMethodTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/factorymethod/IcourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/factorymethod/IcourseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/factorymethod/JavaCourseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/factorymethod/JavaCourseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/factorymethod/PythonFacory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/Factory/factorymethod/PythonFacory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/HungrySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/HungrySingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/InnerClassSingleton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/InnerClassSingleton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/InnerClassSingleton$LazyHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/InnerClassSingleton$LazyHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/InnerClassSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/InnerClassSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/Lazy/ExectorThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/Lazy/ExectorThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/Lazy/LazyDoubleCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/Lazy/LazyDoubleCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/Lazy/LazySimpleSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/Lazy/LazySimpleSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/Lazy/LazySingeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/Lazy/LazySingeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/destorysingle/ReflectInnerSingleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPattern/singlepattern/destorysingle/ReflectInnerSingleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/Five/SimpleEnumUse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/Five/SimpleEnumUse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/Five/Spiciness.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/Five/Spiciness.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/NineTeen/EnumClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/NineTeen/EnumClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enum/NineTeen/Shrubbery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enum/NineTeen/Shrubbery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +137,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,24 +152,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\work\java\repository" />
+        <option name="userSettingsFile" value="D:\learning\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1cCKhqInyloXvztgn6muUqWz3Oq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/designpattern/factory/factorymethod" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/designpattern/proxypattern/v03" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning\java\src\main\java\designpattern\proxypattern\v03" />
+      <recent name="D:\learning\java\src\main\java\designpattern\proxypattern" />
+      <recent name="D:\learning\java\src\main\java\designpattern\strategy" />
+      <recent name="D:\learning\java\src\main\java\designpattern\prototypepattern\v2" />
+      <recent name="D:\learning\java\src\main\java\designpattern\prototypepattern" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="designpattern.factory.abastractfactory" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\learning\java\src\main\java\designpattern\factory\factorymethod" />
-      <recent name="D:\learning\java\src\main\java\designpattern\factory\simplefactory" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="designpattern.builder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,13 +208,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReflectInnerSingleTest">
-    <configuration name="LazySingeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.singlepattern.Lazy.LazySingeTest" />
+  <component name="RunManager" selected="Application.Random">
+    <configuration name="MedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.MedianSortedArrays" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.singlepattern.Lazy.*" />
+          <option name="PATTERN" value="leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectInnerSingleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.singlepattern.destorysingle.ReflectInnerSingleTest" />
+    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="effectivejava.Random" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.singlepattern.destorysingle.*" />
+          <option name="PATTERN" value="effectivejava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,49 +235,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SetList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="effectivejava.fiftytwo.SetList" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.factory.factorymethod.*" />
+          <option name="PATTERN" value="effectivejava.fiftytwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="designpattern.factory.factorymethod" />
-      <option name="MAIN_CLASS_NAME" value="designpattern.factory.factorymethod.FactoryMethodTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactoryTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.Solution" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.factory.*" />
+          <option name="PATTERN" value="leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="designpattern.factory.simplefactory" />
-      <option name="MAIN_CLASS_NAME" value="designpattern.factory.simplefactory.SimpleFactoryTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactoryTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpattern.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="designpattern.factory.simplefactory" />
-      <option name="MAIN_CLASS_NAME" value="designpattern.factory.simplefactory.SimpleFactoryTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="testList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,13 +273,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectInnerSingleTest" />
-        <item itemvalue="Application.LazySingeTest" />
-        <item itemvalue="JUnit.FactoryMethodTest.test1" />
-        <item itemvalue="JUnit.SimpleFactoryTest.test3" />
-        <item itemvalue="JUnit.SimpleFactoryTest.test2" />
+        <item itemvalue="Application.Random" />
+        <item itemvalue="Application.MedianSortedArrays" />
+        <item itemvalue="JUnit.Test.testList" />
+        <item itemvalue="Application.SetList" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -185,7 +301,61 @@
       <workItem from="1590208853236" duration="5231000" />
       <workItem from="1590310004738" duration="3962000" />
       <workItem from="1590326925232" duration="1919000" />
-      <workItem from="1590329618518" duration="534000" />
+      <workItem from="1590329618518" duration="1068000" />
+      <workItem from="1590389954288" duration="8900000" />
+      <workItem from="1590413908192" duration="112000" />
+      <workItem from="1590806737509" duration="16894000" />
+      <workItem from="1590986550068" duration="12000" />
+      <workItem from="1591185411561" duration="14351000" />
+      <workItem from="1591279493941" duration="4415000" />
+      <workItem from="1591503565101" duration="25000" />
+      <workItem from="1591591438134" duration="5000" />
+      <workItem from="1591598312742" duration="2980000" />
+      <workItem from="1591686968381" duration="5000" />
+      <workItem from="1591787707618" duration="6871000" />
+      <workItem from="1591839886203" duration="7931000" />
+      <workItem from="1591882454823" duration="9000" />
+      <workItem from="1591885338066" duration="2032000" />
+      <workItem from="1591937864219" duration="5023000" />
+      <workItem from="1592212561038" duration="39000" />
+      <workItem from="1592213608960" duration="602000" />
+      <workItem from="1592222145843" duration="6598000" />
+      <workItem from="1592318917190" duration="830000" />
+      <workItem from="1592361844345" duration="3356000" />
+      <workItem from="1592376923371" duration="2131000" />
+      <workItem from="1592447084056" duration="4351000" />
+      <workItem from="1592476813145" duration="2584000" />
+      <workItem from="1592487831938" duration="2522000" />
+      <workItem from="1592533525167" duration="3288000" />
+      <workItem from="1592906180355" duration="3392000" />
+      <workItem from="1592984406909" duration="16087000" />
+      <workItem from="1593323123066" duration="606000" />
+      <workItem from="1593348301162" duration="3164000" />
+      <workItem from="1593443171557" duration="5555000" />
+      <workItem from="1593606124502" duration="4221000" />
+      <workItem from="1593675112836" duration="491000" />
+      <workItem from="1593676349497" duration="273000" />
+      <workItem from="1593676820053" duration="131000" />
+      <workItem from="1593690971198" duration="2810000" />
+      <workItem from="1593744992620" duration="1447000" />
+      <workItem from="1594033026432" duration="4877000" />
+      <workItem from="1594085589714" duration="3172000" />
+      <workItem from="1594110383992" duration="8259000" />
+      <workItem from="1594181688037" duration="8883000" />
+      <workItem from="1594265793288" duration="1204000" />
+      <workItem from="1594367266933" duration="2433000" />
+      <workItem from="1594531004058" duration="14000" />
+      <workItem from="1594534873198" duration="636000" />
+      <workItem from="1594559502080" duration="3306000" />
+      <workItem from="1594607915558" duration="80000" />
+      <workItem from="1594710463379" duration="615000" />
+      <workItem from="1594711114274" duration="9857000" />
+      <workItem from="1595243858303" duration="2788000" />
+      <workItem from="1595297032190" duration="5000" />
+      <workItem from="1595332674880" duration="3345000" />
+      <workItem from="1595393677194" duration="3208000" />
+      <workItem from="1595681762126" duration="599000" />
+      <workItem from="1595928401399" duration="12000" />
     </task>
     <servers />
   </component>
@@ -204,6 +374,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,6 +400,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/designpattern/singlepattern/Lazy/LazySingeTest.java</url>
           <line>7</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/designpattern/builder/ClientTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/effectivejava/eightteen/InstrumentedSet.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/genericity/GenMethod.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/effectivejava/annotation/RunTests.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-4.0.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+           http://www.springframework.org/schema/task
+    	   http://www.springframework.org/schema/task/spring-task-4.0.xsd">
+
+<!--所有类进行扫描，以完成Bean创建和自动依赖注入的功能-->
+<!--    扫描service层和dao层注解（spring中扫描service，然后再在SpringMVC中扫描controller中扫描controller。
+ 因为如果Controller在主容器中进行扫描的话会扫描到原样的service，那时service还没有进行事务处理可能会引起事务失效） -->
+
+    <context:component-scan base-package="com.rohao">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+
+    <!-- ==================配置数据源================================= -->
+    <!-- 1. 加载外部的 jdbc.propertites 配置文件 -->
+    <context:property-placeholder location="classpath:config.properties" />
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+          destroy-method="close">
+        <property name="driverClass" value="${driver}" /> <!-- 定义数据库驱动 -->
+        <property name="jdbcUrl" value="${url}" /> <!-- 定义数据库URL -->
+        <property name="user" value="${username}" /> <!-- 定义数据库的用户名 -->
+        <property name="password" value="${password}" /> <!-- 定义数据库的密码 -->
+
+        <!-- c3p0连接其他配置 -->
+        <property name="minPoolSize" value="5" />
+        <property name="maxPoolSize" value="100" />
+        <property name="maxIdleTime" value="3600" />
+        <property name="acquireIncrement" value="2" />
+        <property name="maxStatements" value="0" />
+        <property name="initialPoolSize" value="2" />
+        <property name="idleConnectionTestPeriod" value="1800" />
+        <property name="acquireRetryAttempts" value="30" />
+        <property name="acquireRetryDelay" value="100" />
+        <property name="breakAfterAcquireFailure" value="false" />
+        <property name="testConnectionOnCheckout" value="false" />
+    </bean>
+
+    <bean id="mappingJacksonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>application/json;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
+<!--    事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+</beans>
