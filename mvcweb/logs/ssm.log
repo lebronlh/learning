@@ -1,0 +1,7 @@
+[INFO] [2020-08-04 09:07:09][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2aece37d: startup date [Tue Aug 04 09:07:09 CST 2020]; root of context hierarchy
+  [INFO] [2020-08-04 09:07:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+  [INFO] [2020-08-04 09:07:09][org.springframework.context.support.PropertySourcesPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+  [INFO] [2020-08-04 09:07:09][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2020-08-04 09:07:09][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+  [INFO] [2020-08-04 09:07:09][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+  
