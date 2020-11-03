@@ -60,4 +60,17 @@
         <property name="dataSource" ref="dataSource" />
     </bean>
 
+    <bean id ="user" class="com.rohao.Domain.User"/>
+
+    <bean id = "taskService" class="com.rohao.service.impl.TaskServiceImpl"/>
+    <!--配置定时任务-->
+    <!--initial_delay 表示服务器启动后多少ms 启动定时任务-->
+    <!--fixed-delay 表示每隔多少ms启动一次定时任务-->
+    <task:scheduled-tasks>
+        <!--<task:scheduled ref="taskService" method="firstTask" initial-delay="1000" fixed-delay="1000"/>
+        <task:scheduled ref="taskService" method="secondTask" initial-delay="2000"/>-->
+        <task:scheduled ref="taskService" method="firstTask"
+                        cron="*/5 * * * * ？"/>
+    </task:scheduled-tasks>
+
 </beans>

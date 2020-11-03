@@ -1,4 +1,8 @@
 package com.rohao.service;
 
-public class TaskService {
+public interface TaskService {
+    void firstTask();
+
+
+    void secondTask();
 }

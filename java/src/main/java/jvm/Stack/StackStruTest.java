@@ -1,4 +1,4 @@
-package jvm;
+package jvm.Stack;
 
 public class StackStruTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package leecode;
+package leecode.Stack;
 
 import effectivejava.genertic.Stack;
 
@@ -11,31 +11,32 @@ public class StackGetMin {
 
 
 
-    @SuppressWarnings("unchecked")
+    //@SuppressWarnings("unchecked")
     public StackGetMin(int initiaSize) {
             if(initiaSize<0)
                 throw  new RuntimeException("初始值不能小于0");
             else{
-                stackData = new Stack(initiaSize);
-                stackData = new Stack(initiaSize);
+                stackData = new Stack<Integer>(initiaSize);
+                stackData = new Stack<Integer>(initiaSize);
             }
 
 
     }
 
     public void push(int newData){
-        if (stackData.isEmpty())
-            stackData.push(newData);
-
-        if(stackMin.isEmpty())
+        if (stackMin.isEmpty())
             stackMin.push(newData);
+        else if(newData<stackMin.peek())
+            stackMin.push(newData);
+
+        stackData.push(newData);
 
     }
 
-   /* private int pop(){
-        if(stackData[top]>stackMin[])
+    public int pop(){
+
         return 0;
-    }*/
+    }
 
     public static void main(String[] args) {
 

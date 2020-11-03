@@ -2,23 +2,33 @@ package leecode;
 
 public class Solution {
 
-    public int[] twoSum (int[] numbers, int target) {
-        for(int i =0;i<numbers.length;i++){
-            for (int j =1;j<numbers.length;j++){
-                if(numbers[i]+numbers[j]==target){
-                    return new int[]{i+1,j+1};
-                }
-            }
+    private  static  int count = 0;
+    public static int movingCount(int m, int n, int k) {
+        int[][] vis =new int[m][n];
+        dfs(vis,0,0,k);
+
+        return count;
+    }
+
+    public static void dfs(int[][]conv,int m,int n,int k){
+        if(transfer(m)+transfer(n)>k|| m>conv.length-1 || n>conv[0].length-1 ||conv[m][n]==-1)
+            return ;
+        count++;
+        conv[m][n]=-1;
+        dfs(conv,m+1,n,k);
+        dfs(conv,m,n+1,k);
+    }
+
+    public static int transfer(int num){
+        int res = 0;
+        while (num!=0) {
+            res += num % 10;
+            num/=10;
         }
-        return null;
+        return res;
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] numbers = {2,11,7,15};
-        int target = 26;
-        int[] sum = solution.twoSum(numbers, target);
-        System.out.println("index1="+sum[0]);
-        System.out.println("index2="+sum[1]);
+        System.out.println(movingCount(3, 1, 0));
     }
 }

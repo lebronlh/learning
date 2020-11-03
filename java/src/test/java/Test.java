@@ -1,17 +1,16 @@
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import lh.entry.Complex;
+
+import java.util.*;
 
 public class Test {
+    public static void main(String[] args) {
+        Complex complex[] =new Complex[10];
+        System.out.println(complex[0]);
+    }
 
     @org.junit.Test
     public void test(){
-       Set<Integer> integers = Set.of(1,3,4);
-       Set<Double> doubles = Set.of(2.0,4.0,6.0);
-       Set<Number> numbers=Set.of(1,2.0,3);
-        Set<? extends Number> union = union(integers, numbers);
-        System.out.println(union);
+       String s ="23";
     }
 
    public static <E> Set<E> union(Set<? extends E> s1,
@@ -23,9 +22,12 @@ public class Test {
 
     @org.junit.Test
     public void testList() throws IllegalAccessException {
-        List<Object> objects = Collections.emptyList();
-        System.out.println(objects.size());
-        System.out.println(objects);
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+       list.add(0,5);
+        System.out.println(list);
 
     }
 
