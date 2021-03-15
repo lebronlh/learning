@@ -22,6 +22,10 @@
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
+    <!-- AOP:配置自动为匹配 aspectJ 注解的 Java 类生成代理对象 proxy-target-class="true": 在Spring中强制使用CGLIB生成目标类的代理类
+		因为默认情况下，Spring使用JDK动态代理生成目标类的代理类 -->
+    <aop:aspectj-autoproxy  />
+
 
     <!-- ==================配置数据源================================= -->
     <!-- 1. 加载外部的 jdbc.propertites 配置文件 -->
@@ -60,9 +64,9 @@
         <property name="dataSource" ref="dataSource" />
     </bean>
 
-    <bean id ="user" class="com.rohao.Domain.User"/>
+    <!--<bean id ="user" class="com.rohao.Domain.User"/>
 
-    <bean id = "taskService" class="com.rohao.service.impl.TaskServiceImpl"/>
+    <bean id = "taskService" class="com.rohao.service.impl.TaskServiceImpl"/>-->
     <!--配置定时任务-->
     <!--initial_delay 表示服务器启动后多少ms 启动定时任务-->
     <!--fixed-delay 表示每隔多少ms启动一次定时任务-->

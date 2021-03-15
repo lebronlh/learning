@@ -1,7 +1,9 @@
 package com.rohao.service.impl;
 
 import com.rohao.service.TaskService;
+import org.springframework.stereotype.Service;
 
+@Service("taskservice")
 public class TaskServiceImpl implements TaskService {
     @Override
     public void firstTask() {
