@@ -1,53 +1,59 @@
 package leecode;
 
-import lombok.extern.slf4j.Slf4j;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
-@Slf4j(topic = "c.Test")
-public class Test {
-    public static void main(String[] args) {
-       /* Runnable r = new Thread(){
-            @Override
-            public void run(){
-                log.debug("runnning");
+
+public class Test{
+   static  Map<Character, Integer> map = new HashMap<>();
+   public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String s = sc.nextLine();
+
+
+      map.put('C', 12);
+      map.put('H', 1);
+      map.put('O', 16);
+      map.put('N', 14);
+
+      int len = s.length();
+
+      int res = 0;
+      for(int i =0;i<len;i++){
+         if(i<len-1){
+            if(map.get(s.charAt(i+1))==null){
+               int ab = array(s,i+1);
+               int a =1;
+               int count =0;
+                for(int j = ab;j>=i+1;j--){
+                   count+=(s.charAt(j)-'0')*a;
+                   a*=10;
+                }
+                res+=map.get(s.charAt(i))*count;
+                i=ab;
+            }else{
+               res = map.get(s.charAt(i));
             }
-        };*/
-
-        Runnable r = new Runnable() {
-            @Override
-            public void run() {
-                log.debug("running");
-            }
-        };
-
-        log.debug("run");
-        Thread t = new Thread(r);
-        t.start();
-        System.out.println("run");
-    }
-
-    @org.junit.Test
-    public void test1(){
-        System.out.println(fib(0));
-        System.out.println(fib(1));
-        System.out.println(fib(2));
-        System.out.println(fib(3));
-        System.out.println(fib(4));
-    }
-
-    public int fib(int n){
-        /*if(n == 0 || n == 1)
-            return n;
-        else
-            return fib(n-1)+fib(n-2);*/
-         int a =0;
-         int b =1;
-         int sum;
-         while(n>0){
-             sum = (a+b)% 1000000007;
-             a = b;//b值是上一个sum，赋予a后，故返回a
-             b = sum;
-             n--;
+         }else if(map.get(s.charAt(i))!=null){
+            res+=map.get(s.charAt(i));
          }
-         return a;
-    }
+         System.out.println(res);
+      }
+
+   }
+
+    static int array(String s, int i) {
+      for(int j =i;j<s.length();j++){
+         if(map.get(s.charAt(j))!=null){
+            return j-1;
+         }
+      }
+      return s.length()-1;
+   }
+
+
+
+
+
 }

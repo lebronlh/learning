@@ -1,16 +1,20 @@
 package com.rohao;
 
 import com.rohao.Domain.User;
+import com.rohao.controller.TestController;
 import com.rohao.dao.UserMapper;
 import com.rohao.utils.MybatisUtils;
 import org.apache.ibatis.session.SqlSession;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
 
 public class TestPro {
+
+
+
     @Test
     public void test(){
 
@@ -26,8 +30,11 @@ public class TestPro {
         //获取spring工厂
         /*底层原理是通过读取配置文件获取输入流，通过反射获取key（id,name）值 创建对象*/
         ApplicationContext ctx = new ClassPathXmlApplicationContext("/applicationContext.xml");
-        User user = ctx.getBean("user", User.class);
-        System.out.println(user);
+        //User user = ctx.getBean("user", User.class);
+        TestController controller = ctx.getBean("testController", TestController.class);
+        User user = new User();
+        controller.userTest(user);
+        System.out.println(controller);
 
     }
 
@@ -54,4 +61,14 @@ public class TestPro {
         System.out.println(user);
         session.close();
     }
+
+    @Test
+    public void testTrancition(){
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("/applicationContext.xml");
+        //User user = ctx.getBean("user", User.class);
+        TestController testController = ctx.getBean("testController", TestController.class);
+        testController.insertUser();
+    }
+
+
 }

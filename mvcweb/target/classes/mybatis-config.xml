@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <environments default="development">
+    <environments default="development"><!--可以有多个环境-->
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED"><!--unpooled:每次请求时打开和关闭链接；pooled:池的概念;jindi：-->

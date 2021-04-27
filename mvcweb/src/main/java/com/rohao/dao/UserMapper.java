@@ -8,4 +8,8 @@ public interface UserMapper {
     List<User> selectUser();
 
     User selectUserById(int id);
+
+    void insertUser(User user);
+
+
 }

@@ -19,6 +19,10 @@ public class InnerClassSingleton {
         return LazyHolder.LAZY;
     }
 
+    /**
+     * 静态内部类模式如何保证线程安全：静态内部类加载的时候，去初始化静态域，这个初始化过程有jvm保证线程安全
+     * 并且是static final保证只初始化一次
+     */
     private static  class LazyHolder{
         private static  final InnerClassSingleton LAZY = new InnerClassSingleton();
     }

@@ -22,6 +22,7 @@ public class Main {
 
 class TimeMethodInterceptor implements MethodInterceptor{
 
+
     /**
      *
      * @param o  被代理类的子类，本例中即Tank的子类，如果被代理的是Final类则生成不了代理类

@@ -14,6 +14,8 @@
            http://www.springframework.org/schema/task
     	   http://www.springframework.org/schema/task/spring-task-4.0.xsd">
 
+
+
 <!--所有类进行扫描，以完成Bean创建和自动依赖注入的功能-->
 <!--    扫描service层和dao层注解（spring中扫描service，然后再在SpringMVC中扫描controller中扫描controller。
  因为如果Controller在主容器中进行扫描的话会扫描到原样的service，那时service还没有进行事务处理可能会引起事务失效） -->
@@ -64,7 +66,14 @@
         <property name="dataSource" ref="dataSource" />
     </bean>
 
+
+
+
+    <bean id="testController" class="com.rohao.controller.TestController"/>
+
+
     <!--<bean id ="user" class="com.rohao.Domain.User"/>
+
 
     <bean id = "taskService" class="com.rohao.service.impl.TaskServiceImpl"/>-->
     <!--配置定时任务-->

@@ -1,34 +1,79 @@
 package leecode;
 
-public class Solution {
 
-    private  static  int count = 0;
-    public static int movingCount(int m, int n, int k) {
-        int[][] vis =new int[m][n];
-        dfs(vis,0,0,k);
+import org.junit.Test;
 
-        return count;
-    }
+import java.util.*;
 
-    public static void dfs(int[][]conv,int m,int n,int k){
-        if(transfer(m)+transfer(n)>k|| m>conv.length-1 || n>conv[0].length-1 ||conv[m][n]==-1)
-            return ;
-        count++;
-        conv[m][n]=-1;
-        dfs(conv,m+1,n,k);
-        dfs(conv,m,n+1,k);
-    }
+class TreeNode{
+    int val;
+    TreeNode left;
+    TreeNode right;
 
-    public static int transfer(int num){
-        int res = 0;
-        while (num!=0) {
-            res += num % 10;
-            num/=10;
-        }
-        return res;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(movingCount(3, 1, 0));
+    TreeNode(int val){
+        this.val = val;
     }
 }
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n =sc.nextInt();
+        int[] nums = new int[n];
+        for(int i =0;i<n;i++){
+            nums[i]=sc.nextInt();
+        }
+        int aab=0;
+        int time =0;
+        int start =0;int end;
+
+        Set<List<Integer>> set = new HashSet<>();
+        List<Integer> all = new ArrayList<>();
+        all.add(nums[0]);
+
+        for(int j =0;j<nums.length;j++){
+            time++;
+            if(nums[j-1]-nums[j]>=9){
+                if(aab==0)
+                    start=Math.max(j-4,0);
+                aab++;
+                if(aab>=4)
+                    time =0;
+            }else{
+                if(aab>=4){
+                    List<Integer> integers = new ArrayList<>();
+                    end =j;
+                    end = Math.min(end+4,nums.length);
+                    for(int k =start;k<end;k++){
+                        integers.add(nums[j]);
+                    }
+                    aab=0;
+                    time=0;
+                    if(set.add(integers)){
+                        all.addAll(integers);
+                    }
+                }
+            }
+            if(time==60){
+                all.add(nums[j]);
+                time =0;
+            }
+        }
+        System.out.println(all.toString());
+    }
+
+
+
+
+
+
+    @Test
+    public void test() {
+        int nums[] ={7,1,5,3,6,4};
+
+
+
+    }
+
+}
+

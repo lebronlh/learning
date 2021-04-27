@@ -48,7 +48,7 @@ public class SkipList {
             else if(team.right.key==key)//找到节点，右侧即为待删除节点
             {
                 team.right=team.right.right;//删除右侧节点
-                team=team.down;//向下继续查找删除
+                team=team.down;//向下继续查找删除tiaobiao
             }
             else if(team.right.key>key)//右侧已经不可能了，向下
             {

@@ -10,4 +10,8 @@
     <select id="selectUserById" resultType="com.rohao.Domain.User">
         select * from user where id =#{id}
     </select>
+
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into user (id,name,grade) values(#{id},#{name},#{grade})
+    </insert>
 </mapper>

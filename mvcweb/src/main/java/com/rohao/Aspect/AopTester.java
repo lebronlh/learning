@@ -23,7 +23,7 @@ public class AopTester {
         System.out.println("------------");
         userAspect aspect = context.getBean(userAspect.class);
         System.out.println(aspect);
-        userService.save();
+        //userService.save();
         System.out.println("--------------");
     }
 }
